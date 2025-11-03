@@ -1,3 +1,5 @@
+import ListaCategorias from "../../components/categoria/listacategorias/ListaCategorias"
+
 function Home() {
   return (
     <>
@@ -22,6 +24,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <ListaCategorias />
     </>
   )
 }
